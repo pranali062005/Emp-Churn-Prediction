@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained GaussianNB model
-with open('model.pkl', 'rb') as f:
+with open('naive_bayes.pkl', 'rb') as f:
   model = pickle.load(f)
 
 # Modern, responsive HTML template with embedded styling
